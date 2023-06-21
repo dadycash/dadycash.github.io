@@ -11,7 +11,7 @@ body{
     line-height: 40px;
     margin-right: 20px;
 }
-/*µ¼º½*/
+/*ÂµÂ¼ÂºÂ½*/
 .navbar{margin-bottom: 0;border-bottom: 1px solid #e6e6e6;}
 .navbar-default{
     background-color: #fff;
@@ -40,6 +40,12 @@ body{
     height: 100%;
     background: rgba(0,0,0,0.7);
     padding: 80px 0;
+}
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 /*home*/
 /* #home{
@@ -110,7 +116,7 @@ body{
 #course .col-md-3{
     margin-bottom: 20px;
 }
-.course {
+.course {navbar-brand
     background: #ffffff;
     border: 1px solid #eee;
 }
